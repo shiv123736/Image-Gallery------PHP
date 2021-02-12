@@ -1,0 +1,56 @@
+.image {
+    /* width: 400px; */
+    padding: 30px;
+    flex-basis: 50%;
+}
+.container {
+    /* width: 100%; */
+    margin: 0 10vw;
+    display: flex;
+    border: 1px solid whitesmoke;
+    padding-bottom: 70px;
+
+}
+.details {
+    padding: 30px;
+    flex-basis: 50%;
+    position: relative;
+}
+.img-title {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    color: #333;
+}
+.details p {
+    text-align: justify;
+}
+.details button {
+    margin-top: 20px;
+    border:none;
+    padding: 5px 10px;
+}
+.report {
+    position: absolute;
+    bottom:30px;
+    left: 30px;
+    
+    /* display: block; */
+}
+.report a {
+    color: #333;
+    text-decoration:none;
+    border: 1px solid red;
+    padding: 2px 5px; 
+    color:red;
+    margin-right: 10px;
+}
+.report a:hover {
+    background-color: red;
+    color: white; 
+}
+.footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+}
